@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.fa-solid{
+    color: aqua;
+}
 
 .banner {
     background-position: top;
@@ -195,7 +198,7 @@ main {
 .contact input[type="email"],
 textarea {
     margin-bottom: 5px;
-    border: 0;
+    border: none;
     width: 100%;
     padding: 20px 30px;
 }
