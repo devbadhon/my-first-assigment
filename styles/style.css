@@ -2,3 +2,200 @@
     margin: 0;
     padding: 0;
 }
+
+.banner {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1920px;
+    height: 808px;
+    ;
+    background-image: url('../images/banner/banner1.png');
+}
+
+.text {
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    text-align: right;
+    margin: 206px 326px 401px 1040px;
+    padding: 10px;
+}
+
+.banner-tittl {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+}
+
+.btn-primary {
+    position: relative;
+    width: 164px;
+    height: 64px;
+    left: 1px;
+    top: 37px;
+    background: #F15B22;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+}
+
+main {
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.failures {
+    display: flex;
+    margin-top: 153px;
+}
+
+.failures-info {
+    text-decoration: none;
+    margin-top: 232px;
+    padding-left: 319px;
+}
+
+.failures-info h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failures-info p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #444343;
+}
+
+.failures-info ul li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style: none;
+}
+
+
+
+.section-title {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 10px;
+    background: #FFFFFF;
+    padding-left: 25%;
+    padding-top: 130px;
+    list-style: none;
+
+}
+
+.skill {
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    padding: 30px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.cta {
+    margin: 183px;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+}
+
+.cta-header {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin: 69px 617px 0px 64px;
+}
+
+.btn-cta {
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+.contact {
+    border-radius: 5px;
+    margin-top: 652px;
+    display: flex;
+    margin-right: 400px;
+    margin-left: 104px;
+    width: 1412px;
+    height: 170px;
+    background: #151414;
+    padding: 199px  8px 176px  279px;
+}
+
+.contact-1{
+    margin-right: 200px;
+    bottom: 200px;
+}
+.contact-1 h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.contact-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.contact-2{
+    margin-left: 200px;
+}
+.contact-2 h1 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.contact input[type="email"],
+textarea {
+    margin-bottom: 5px;
+    border: 0;
+    width: 100%;
+    padding: 20px 30px;
+}
